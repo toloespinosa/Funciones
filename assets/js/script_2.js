@@ -19,10 +19,13 @@ document.addEventListener('keydown', function(event) {
     const key = document.getElementById('key');
     if (event.key === 'a' || event.key === 'A') {
         key.style.backgroundColor = 'pink';
+        color_cuadrado = "pink"
     } else if (event.key === 's' || event.key === 'S') {
         key.style.backgroundColor = 'orange';
+        color_cuadrado = "orange"
     } else if (event.key === 'd' || event.key === 'D') {
         key.style.backgroundColor = 'lightblue';
+        color_cuadrado = "lightblue"
     }
 
     let newDiv;
